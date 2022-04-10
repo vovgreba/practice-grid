@@ -216,6 +216,7 @@ header > div:hover, .button-control {
 .statistics_navigation {
   
   display: flex;
+  flex-wrap: wrap;
   text-transform: capitalize;
   color: #a5a6a7;
   margin-bottom: 20px;
@@ -273,9 +274,11 @@ header > div:hover, .button-control {
 }
 .statistics_box-items .item--active {
   color: green;
+  text-transform: capitalize;
 }
 .statistics_box-items .item--finished {
   color: orange;
+  text-transform: capitalize;
 }
 .statistics_box-items .item:nth-child(4) {
   justify-self: end;
